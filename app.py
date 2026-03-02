@@ -5,7 +5,7 @@ import numpy as np
 # Load Model
 model = pickle.load(open("your_model.pkl", "rb"))
 
-st.set_page_config(page_title="Kraljic Matrix Predictor", layout="centered")
+st.set_page_config(page_title="Kraljic Matrix Predictor Naved Shaikh", layout="centered")
 
 st.title("📦 Kraljic Matrix Category Predictor")
 st.write("Enter procurement details to predict the Kraljic Category")
